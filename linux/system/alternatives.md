@@ -6,11 +6,11 @@
    
 1. You should determine absolute path of the clang-format.
 ```bash
-clang-format-3.5
+which clang-format-3.5
 ```
 2. Install the alternative
 ```bash
-update=alternatives –install /usr/bin/clang-format clang-fromat /usr/bin/clang-format-3.5 1
+update-alternatives –install /usr/bin/clang-format clang-fromat /usr/bin/clang-format-3.5 1
 ```
 
 Arguments:
