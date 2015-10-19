@@ -10,7 +10,7 @@ clang-format-3.5
 ```
 2. Install the alternative
 ```bash
-update=a;ternatives –install /usr/bin/clang-format clang-fromat /usr/bin/clang-format-3.5 1
+update=alternatives –install /usr/bin/clang-format clang-fromat /usr/bin/clang-format-3.5 1
 ```
 
 Arguments:
