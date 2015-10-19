@@ -17,3 +17,4 @@ Arguments:
 - path to alternative
 - name of alternative
 - path to the version
+- priority where higher item is prefered
