@@ -4,11 +4,11 @@
    Lately I read instruction where author offers create symlink instead of create an alternative. It looks similar but you should use standard mechanism of Linux. 
    In the case I will consider example with clanclang-format.
    
-1. You should determine absolute path of the clang-format
+1.You should determine absolute path of the clang-format
 ```bash
 which clang-format-3.5
 ```
-2. Install the alternative
+2.Install the alternative
 ```bash
 update-alternatives –install /usr/bin/clang-format clang-fromat /usr/bin/clang-format-3.5 1
 ```
