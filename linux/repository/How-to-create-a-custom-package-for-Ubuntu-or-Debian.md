@@ -2,16 +2,16 @@
 
 1.Create folders like it:
 ```bash
->tree
+tree
 .
 ├── DEBIAN
 │   └── control
 ```
 
-2 Edit DEBIAN/control file
+2.Edit DEBIAN/control file
 
 ```bash
->cat <<EOT > ./DEBIAN/control
+cat <<EOT > ./DEBIAN/control
 Package: qt-creator
 Version: 5.4.1-mycompany
 Section: base
@@ -22,9 +22,9 @@ Description: QT creator for my company.
 EOT
 ```
 
-3. Add into  the folder need files and folders
+3.Add into  the folder need files and folders
 ```bash
->tree
+tree
 .
 ├── DEBIAN
 │   └── control
@@ -32,7 +32,7 @@ EOT
 │   └── YourFolder
 ```
 
-4. Run build your package
+4.Run build your package
 ```bash
->dpkg-deb --build your-package-name
+dpkg-deb --build your-package-name
 ```
