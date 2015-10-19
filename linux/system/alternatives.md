@@ -2,7 +2,7 @@
 
    I have noticed that people don't use “alternatives mechanism”. May be you faced with situation when you have several version of an application and sometimes you must switch version. 
    Lately I read instruction where author offers create symlink instead of create an alternative. It looks similar but you should use standard mechanism of Linux. 
-   In the case I will consider example with clanclang-format.
+   In the case I will consider example with clang-format.
    
 1.You should determine absolute path of the clang-format
 ```bash
