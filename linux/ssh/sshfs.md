@@ -1,4 +1,4 @@
-# Mount a remote file system by sshfs
+# Mount a remote file system by sshfs tool
 ## Introduce
 SSH is very powerful thing. You could resolve a lot of issues by the SSH.  I trying show how to mount remote file system to your workstation or server. 
 Sometimes we faced with situation when want to edit remote files of puppet or web site. 
