@@ -7,7 +7,7 @@ Often a remote server has not necessary tools like geppetto or sublime.  I know 
 1.Create directory where will be a remote file system.
 ```bash
 mkdir /home/alexander/puppet
-``
+```
 2.Put the line user_allow_other to fuse.conf
 ```bash
 echo 'user_allow_other'>>/etc/fuse.conf
