@@ -22,7 +22,7 @@ Description: QT creator for my company.
 EOT
 ```
 
-3.Add into  the folder need files and folders
+3.Add into the folder necessary files and folders
 ```bash
 tree
 .
