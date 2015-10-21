@@ -1,4 +1,4 @@
-# How to create a custom package for Debain or Ubuntu
+# How to create a custom package for Debian or Ubuntu
 
 1.Create folders like it:
 ```bash
