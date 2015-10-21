@@ -36,7 +36,7 @@ tree
 ```bash
 dpkg-deb --build your-package-name
 ```
-5. if you manage the repo by reprepro, you can add your package by the command
+5.if you manage the repo by reprepro, you can add your package by the command
 ```bash
 reprepro includedeb vivid /home/alexander/repo/qt-creator.deb 
 ```
