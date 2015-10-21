@@ -6,7 +6,7 @@ I often faced similar situations when I should just make backups of my databases
 #!/bin/bash
 
 # Version 20151021
-# The script serves to backup each database to separate file in the a directory
+# The script serves to backup each database to separate file.
 
 
 DATABASE_BACKUP_LIST=$(mysql -e 'show databases' -sN 2>/dev/null|egrep -v 'information_schema|performance_schema|mysql')
