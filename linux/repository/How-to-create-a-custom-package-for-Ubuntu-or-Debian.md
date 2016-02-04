@@ -40,7 +40,7 @@ dpkg-deb --build your-package-name
 ```bash
 reprepro includedeb vivid /home/alexander/repo/qt-creator.deb 
 ```
-6. You can delete old package by the following command
+6.You can delete old package by the following command
 ```bash
 reprepro remove vivid qt-creator
 ```
