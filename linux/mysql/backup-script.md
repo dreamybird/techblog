@@ -1,6 +1,6 @@
 # A bash script to backup Mysql databases
 
-I often faced similar situations when I should just make backups of my databases. I can just save to file system. Every time I write a new script. Now I decided to write similar script last time. I hope the script will help you too.
+I often faced with similar situations when I should just make backups of my databases. I can just save to file system. Every time I write a new script. Now I decided to write similar script last time. I hope the script will help you too.
 
 ```bash
 #!/bin/bash
